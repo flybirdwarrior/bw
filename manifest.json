@@ -1,0 +1,19 @@
+{
+	 "manifest_version": 2,
+   "background": "background.html",
+   "content_scripts": [ {
+      "js": [ "jquery.js" ,"script.js"],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "description": "更改文字图片",
+   "icons": {
+      "128": "sheyou.png"
+   },
+   "name": "Bilibili背景色修改",
+   "page_action": {
+      "default_icon": "sheyou.png"
+   },
+   "permissions": [ "tabs" ],
+   "update_url": "http://upext.chrome.360.cn/intf.php?method=ExtUpdate.query",
+   "version": "1.0"
+}
