@@ -9,7 +9,7 @@
    "icons": {
       "128": "sheyou.png"
    },
-   "name": "Bilibili背景色修改",
+   "name": "更改文字图片",
    "page_action": {
       "default_icon": "sheyou.png"
    },
